@@ -1,7 +1,7 @@
 # HomeBridge API (backend)
 
 ASP.NET Core 10 **Web API** for the HomeBridge affordable-housing platform. It serves JSON to the
-React single-page app (see [`../frontend`](../frontend)), stores data in **PostgreSQL** via Entity
+React single-page app, stores data in **PostgreSQL** via Entity
 Framework Core, and authenticates with **JWT bearer tokens** issued by ASP.NET Core Identity.
 
 > **New machine? Follow this README top to bottom.** It assumes nothing is installed yet.
