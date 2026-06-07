@@ -1,0 +1,40 @@
+# ---- .NET build output ----
+bin/
+obj/
+out/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.dll
+*.exe
+*.pdb
+
+# ---- Visual Studio / Rider / VS Code ----
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.idea/
+
+# ---- Test / coverage ----
+[Tt]est[Rr]esult*/
+*.trx
+coverage/
+*.coverage
+
+# ---- Local config & secrets (keep appsettings.json + appsettings.Development.json tracked) ----
+appsettings.*.local.json
+secrets.json
+*.env
+
+# ---- SQLite leftovers (project now uses PostgreSQL) ----
+*.db
+*.db-shm
+*.db-wal
+
+# ---- OS noise ----
+.DS_Store
+Thumbs.db
